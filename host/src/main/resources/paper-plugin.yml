@@ -1,0 +1,12 @@
+name: CraftDSL
+version: 0.1.0-SNAPSHOT
+main: kr.alpha93.craftdsl.entrypoint.PaperPlugin
+loader: kr.alpha93.craftdsl.loader.ClasspathLoader
+description: "A runtime Kotlin DSL implementation for Minecraft"
+author: "Minecraft Development Dictionary"
+contributors:
+  - "Alpha93"
+website: "https://github.com/MinecraftDevelopmentDictionary/CraftDSL"
+api-version: 1.21.4
+load: STARTUP
+prefix: "DSL"
